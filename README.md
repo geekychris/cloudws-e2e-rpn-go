@@ -141,3 +141,19 @@ cmd/server        entry point (main.go)
 internal/api       HTTP handler for /calculate
 internal/rpn       RPN expression parser/evaluator (core logic)
 ```
+
+## Development
+
+Common commands while working on this project:
+
+```bash
+go build ./...        # compile everything
+go vet ./...           # static analysis / suspicious constructs
+go test ./... -v       # run the full unit test suite with verbose output
+go run ./cmd/server     # run the service locally
+```
+
+## License
+
+No license file is currently included; all rights reserved by the
+repository owner unless a `LICENSE` file is added.
