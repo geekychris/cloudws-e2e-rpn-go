@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Cloudws E2e RPN Go logo" width="180">
+</p>
+
 # cloudws-e2e-rpn-go
 
 A small REST API service implementing a scientific calculator that evaluates
